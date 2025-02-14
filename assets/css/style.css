@@ -3,6 +3,10 @@
     font-family: "Oxygen", serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --verde-floresta: #2E7D32;
     --amarelo-solar: #FFC107;
@@ -12,6 +16,8 @@
     --padding-md: 2rem;
     --padding-gd: 4rem;
 }
+
+/* botoes */
 
 /* header */
 
@@ -49,10 +55,11 @@ header nav a:hover {
 #hero {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("../media/images/backgd1.jpg");
     background-size: 100vw;
-    height: 70vh;
-    width: 100vw;
+    height: calc(100vh - 4rem);
+    width: 100%;
     object-fit: cover;
     background-position-y: center;
+    padding: 0;
 }
 
 .hero_foreground {
@@ -71,4 +78,55 @@ header nav a:hover {
     font-size: 1.25rem;
     font-weight: 100;
     letter-spacing: 1.5px;
+}
+
+/* about section */
+
+#about {
+    height: 75vh;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    padding-bottom: 30vh;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 27%, rgba(117, 117, 117, 1) 100%);
+}
+
+#about h2 {
+    padding-bottom: 4rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-top: 11vh;
+}
+
+#about span {
+    color: var(--verde-floresta);
+    font-weight: 400;
+}
+
+.about_container {
+    display: grid;
+    gap: 1rem;
+}
+
+.about_text {
+    grid-column: 1;
+    padding: 2rem;
+}
+
+.about_container p {
+    display: flex;
+    text-align: left;
+    padding: 1rem;
+    font-weight: 300;
+}
+
+.about_images {
+    grid-column: 2;
+    width: 50vw;
+}
+
+.about_images img {
+    width: 40vw;
+    padding: 2rem;
 }
