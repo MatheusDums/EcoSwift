@@ -83,16 +83,15 @@ header nav a:hover {
 /* about section */
 
 #about {
-    height: 75vh;
+    height: 100vh;
     width: 100%;
     text-align: center;
-    display: grid;
-    padding-bottom: 30vh;
     background: rgb(255, 255, 255);
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 27%, rgba(117, 117, 117, 1) 100%);
 }
 
-#about h2 {
+#about h2,
+#advantages h2 {
     padding-bottom: 4rem;
     font-size: 2.5rem;
     font-weight: 300;
@@ -107,11 +106,13 @@ header nav a:hover {
 .about_container {
     display: grid;
     gap: 1rem;
+    max-height: 100vh;
 }
 
 .about_text {
     grid-column: 1;
     padding: 2rem;
+    max-height: 100vh;
 }
 
 .about_container p {
@@ -129,4 +130,71 @@ header nav a:hover {
 .about_images img {
     width: 40vw;
     padding: 2rem;
+}
+
+/* advantages section */
+
+#advantages {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+/*     flex-direction: row; */
+    padding: 2rem 0;
+    width: 75%;
+    height: 70%;
+    overflow: hidden;
+    gap: 3rem;
+}
+
+.card {
+    flex: 1;
+    height: 100%;
+    transition: flex 0.5s ease;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    border-radius: .5rem;
+}
+
+.card h3 {
+    color: var(--branco-neve);
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.card p {
+    color: var(--branco-neve);
+    margin-top: 1rem;
+}
+
+.card1 {
+    background-image: url(../media/images/_Entrega\ Sustentável_\ Bikes\ elétricas\ e\ veículos\ ecológicos\ com\ fundo\ mais\ escuro.jpg);
+}
+
+.card2 {
+    background-image: url(../media/images/Rápido\ e\ Seguro_\ Tecnologia\ para\ rotas\ sustentaveis\ otimizadas\ com\ fundo\ mais\ escuro.jpg);
+}
+
+.card3 {
+    background-image: url(../media/images/_Pegada\ Zero_\ Compromisso\ com\ um\ futuro\ mais\ verde\ com\ fundo\ mais\ escuro\ e\ sem\ escritas.jpg );
+}
+
+.card:hover {
+    flex: 2;
+}
+
+.card:hover h3 {
+    font-size: 3rem;
+}
+
+.card:hover p {
+    font-size: 1.25rem;
 }
