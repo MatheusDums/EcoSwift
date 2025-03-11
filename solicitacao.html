@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>EcoSwift - Solicitação de Entrega</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header id="#header">
+        <a href=""><img src="./assets/media/images/logosemlegenda.png" alt="Logo"></a>
+
+        <nav>
+            <a href="index.html#header">Início</a>
+            <a href="index.html#about">Sobre</a>
+            <a href="index.html#advantages">Benefícios</a>
+            <a href="index.html#HowToUse">Como Funciona</a>
+            <a href="index.html#reviews">Depoimentos</a>
+            <a href="index.html#footer">Contato</a>
+        </nav>
+
+        <a href="solicitacao.html"><button>Solicitar Entrega</button></a>
+
+        <div class="menu_mobile_icon">
+            <img src="assets/media/images/3lines.png" alt="" onclick="menuShow()">
+        </div>
+    </header>
+    <!-- menu mobile -->
+
+    <section class="menu_mobile">
+        <ul>
+            <li><a href="index.html#about" class="mobile_link">Sobre</a></li>
+            <li><a href="index.html#advantages" class="mobile_link">Benefícios</a></li>
+            <li><a href="index.html#HowToUse" class="mobile_link">Como Funciona?</a></li>
+            <li><a href="index.html#footer" class="mobile_link">Contato</a></li>
+            <li><a href="solicitacao.html" class="mobile_link solic_mobile">Solicitar uma Entrega</a></li>
+        </ul>
+    </section>
+
+    <main>
+
+        <section id="formulario">
+
+            <div class="form_title">
+                <h1>Formulário de Solicitação de Entrega</h1>
+            </div>
+
+            <div class="form_box">
+                <form action="mailto:contato@ecoswift.com" method="post">
+                    <div class="form_container">
+                        <div class="sup">
+                            <div class="input_form">
+                                <label for="name">🖊 Nome Completo:</label><br>
+                                <input type="text" id="name" name="name" required placeholder="Nome Completo"><br>
+                                <br>
+                                <label for="phone"> 📞 Telefone:</label><br>
+                                <input type="number" id="phone" name="phone" required placeholder="(XX) XXXXX-XXXX"><br>
+                                <br>
+                                <label for="mail"> 📧 E-mail:</label><br>
+                                <input type="email" id="mail" name="mail" required placeholder="seuemail@dominio.com"><br>
+                            </div>
+
+                            <div class="input_form">
+                                <label for="place">📍 Endereço da Entrega:</label><br>
+                                <input type="text" id="place" name="place" required placeholder="Endereço para a Entrega"><br>
+                                <br>
+                                <label for="type"> 🚚 Tipo de Entrega:</label><br>
+                                <select name="typeOf" id="" required>
+                                    <option value="default">Padrão</option>
+                                    <option value="express">Expressa</option>
+                                </select><br>
+                                <br>
+                                <label for="date">📅 Data de Entrega Preferencial:</label><br>
+                                <input type="date" id="date" name="date" required placeholder="Data Preferencial"><br>
+                                <br>
+                                <label for="time">⌚ Hora Preferencial de Entrega:</label><br>
+                                <input type="text" id="time" name="time" required placeholder="Hora Preferencial"><br>
+                            </div>
+                        </div>
+
+                        <div class="inf">
+                            <div class="input_form">
+                                <label for="product"> 📦 Produto:</label><br>
+                                <input type="text" id="product" name="product" required placeholder="Produto"><br>
+                                <br>
+                                <label for="embalagem">🎁 Precisa de Embalagem Especial:</label><br>
+                                <input type="radio" id="embalagem" name="embalagem">Sim <br>
+                                <input type="radio" id="embalagem" name="embalagem">Não <br>
+                            </div>
+
+                            <div class="input_form input_msg">
+                                <label for="name">✉ Mensagem Adicional:</label><br>
+                                <textarea name="Mensagem_adc" id="" rows="12" cols="75"
+                                    placeholder="Digite aqui sua mensagem"></textarea><br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form_button">
+                        <a href="solicitacao.html"><button>Enviar Formulário</button></a>
+                    </div>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <section id="footer" class="footer_form">
+
+        <div class="footer_links">
+            <a href="index.html#about">Sobre Nós</a>
+            <a href="index.html#HowToUse">Como Funciona</a>
+            <a href="index.html#reviews">Depoimentos</a>
+            <a href="politica.html">Política de Privacidade</a>
+        </div>
+
+        <div class="social_media">
+            <div class="social">
+                <img src="assets/media/images/whatsapp.png" alt="">
+                <a href="https://wa.me/+5547989001234?text=Olá.">
+                    <p>(47) 98900-1234</p>
+                </a>
+            </div>
+            <div class="social">
+                <img src="assets/media/images/linkedin.png" alt="">
+                <a href="https://www.linkedin.com/in/matheuskauandums/">
+                    <p>/EcoSwift</p>
+                </a>
+            </div>
+            <div class="social">
+                <img src="assets/media/images/instagram.png" alt="">
+                <a href="https://www.instagram.com/_mdums/?hl=pt-br">
+                    <p>@EcoSwift</p>
+                </a>
+            </div>
+            <div class="social">
+                <img src="assets/media/images/arroba.png" alt="">
+                <a href="mailto:contato@ecoswift.com?subject=Hello">
+                    <p>contato@ecoswift.com</p>
+                </a>
+            </div>
+            <div class="social">
+                <img src="assets/media/images/telefone.png" alt="">
+                <a href="tel:+5547989001234">
+                    <p>(47) 98900-1234</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer_contact">
+            <div class="local">
+                <h3>Nossa Localização</h3>
+                <p>Edificio Ravenna, 3º andar <br>
+                    Avenida São Bento, nº 347 - 89.286-000<br>
+                    São Bento do Sul, Santa Catarina
+                </p>
+            </div>
+
+            <div class="mail">
+                <h3>Email</h3>
+                <a href="mailto:contato@ecoswift.com?subject=Hello">
+                    <p>contato@ecoswift.com</p>
+                </a>
+            </div>
+
+            <div class="phone_footer">
+                <h3>Telefone</h3>
+                <a href="tel:+5547989001234">
+                    <p>(47) 98900-1234</p>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
+
+<!--                     <label for="city">Cidade:</label><br>
+                    <select name="city" id="city">
+                        <option value="padrao">Selecione sua cidade</option>
+                        <option value="São Bento do Sul">São Bento do Sul</option>
+                        <option value="florianopolis">Florianópolis</option>
+                        <option value="joinville">Joinville</option>
+                        <option value="blumenau">Blumenau</option>
+                        <option value="itajai">Itajaí</option>
+                        <option value="jaragua_do_sul">Jaraguá do Sul</option>
+                        <option value="lages">Lages</option>
+                        <option value="curitiba">Curitiba</option>
+                        <option value="londrina">Londrina</option>
+                        <option value="maringa">Maringá</option>
+                        <option value="ponta_grossa">Ponta Grossa</option>
+                        <option value="cascavel">Cascavel</option>
+                        <option value="foz_do_iguacu">Foz do Iguaçu</option>
+                        <option value="sao_paulo">São Paulo</option>
+                        <option value="rj">Rio de Janeiro</option>
+                    </select><br> 
+
+                    <label for="state">Estado</label><br>
+                    <select name="" id="">
+                        <option value="padrao">Selecione seu estado</option>
+                        <option value="santa_catarina">Santa Catarina</option>
+                        <option value="parana">Paraná</option>
+                        <option value="sao_paulo_state">São Paulo</option>
+                        <option value="rj_state">Rio de Janeiro</option>
+                    </select><br> -->
