@@ -565,6 +565,27 @@
         color: var(--branco-neve);
     }
 
+    .menu_mobile button {
+        background: var(--cinza-urbano);
+        padding: 1rem;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    .menu_mobile button:hover {
+        background: var(--cinza-urbano);
+        padding: 1rem;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    #mobile-theme-toggle {
+        padding: 1rem;
+        border: var(--cinza-urbano) 2px solid;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
     #about {
         background-color: var(--cor-fundo);
     }

@@ -35,31 +35,8 @@ function menuShow() {
   }
 }
 
-/* /* botão de mudança de tema (claro/escuro) 
-
-const chk = document.getElementById('chk');
-
-// Função para atualizar o tema
-function aplicarTema(temaEscuro) {
-    if (temaEscuro) {
-        document.body.classList.add("dark");
-        chk.checked = true;
-    } else {
-        document.body.classList.remove("dark");
-        chk.checked = false;
-    }
-}
-
-// Verifica a preferência do sistema
-const temaSistemaEscuro = window.matchMedia("(prefers-color-scheme: dark)").matches;
-aplicarTema(temaSistemaEscuro);
-
-// Adiciona um event listener para quando o usuário mudar manualmente
-chk.addEventListener("change", () => {
-    aplicarTema(chk.checked);
-}); */
-
-/* -------------- */
+/* botão de mudança de tema (claro/escuro) 
+ -------------- */
 const chk = document.getElementById('chk');
 const mobileThemeButton = document.getElementById('mobile-theme-toggle');
 
