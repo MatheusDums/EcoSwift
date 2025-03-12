@@ -209,15 +209,15 @@ header nav a:hover {
 }
 
 .card1 {
-    background-image: url(../media/images/_Entrega\ Sustentável_\ Bikes\ elétricas\ e\ veículos\ ecológicos\ com\ fundo\ mais\ escuro.jpg);
+    background-image: url(../media/images/firstcard.jpg);
 }
 
 .card2 {
-    background-image: url(../media/images/Rápido\ e\ Seguro_\ Tecnologia\ para\ rotas\ sustentaveis\ otimizadas\ com\ fundo\ mais\ escuro.jpg);
+    background-image: url(../media/images/secondcard.jpg);
 }
 
 .card3 {
-    background-image: url(../media/images/_Pegada\ Zero_\ Compromisso\ com\ um\ futuro\ mais\ verde\ com\ fundo\ mais\ escuro\ e\ sem\ escritas.jpg );
+    background-image: url(../media/images/thirdcard.jpg);
 }
 
 .card:hover {
@@ -259,19 +259,19 @@ header nav a:hover {
 }
 
 .adv_mobile .card1 {
-    background-image: url(../media/images/_Entrega\ Sustentável_\ Bikes\ elétricas\ e\ veículos\ ecológicos\ com\ fundo\ mais\ escuro.jpg);
+    background-image: url(../media/images/firstcard.jpg);
     filter: grayscale(60%);
     object-fit: initial;
     background-position-y: 70%;
 }
 
 .adv_mobile .card2 {
-    background-image: url(../media/images/Rápido\ e\ Seguro_\ Tecnologia\ para\ rotas\ sustentaveis\ otimizadas\ com\ fundo\ mais\ escuro.jpg);
+    background-image: url(../media/images/secondcard.jpg);
     filter: grayscale(60%);
 }
 
 .adv_mobile .card3 {
-    background-image: url(../media/images/_Pegada\ Zero_\ Compromisso\ com\ um\ futuro\ mais\ verde\ com\ fundo\ mais\ escuro\ e\ sem\ escritas.jpg );
+    background-image: url(../media/images/thirdcard.jpg);
     filter: grayscale(60%);
 }
 

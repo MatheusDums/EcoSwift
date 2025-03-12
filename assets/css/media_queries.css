@@ -193,6 +193,14 @@
         margin-right: 15px;
     }
 
+    #radio1,
+    #radio12,
+    #radio3,
+    #radio4 {
+        display: none;
+
+    }
+
     /* section CTA */
 
     #cta {
