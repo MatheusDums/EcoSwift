@@ -157,6 +157,7 @@
     .slide_area {
         width: 100%;
         padding: 20px;
+        margin-top: 5rem;
     }
 
     .reviewer_avatar {
@@ -193,12 +194,10 @@
         margin-right: 15px;
     }
 
-    #radio1,
-    #radio12,
-    #radio3,
-    #radio4 {
+    .navigation_auto,
+    .manual_navigation,
+    .slides input {
         display: none;
-
     }
 
     /* section CTA */
@@ -246,7 +245,7 @@
         height: auto;
     }
 
-    .form_container{
+    .form_container {
         padding: 2rem 3rem 0 2rem;
     }
 
@@ -266,10 +265,10 @@
 
     .input_msg {
         display: flex;
-        flex-direction: column  ;
+        flex-direction: column;
     }
 
-    .input_msg textarea{
+    .input_msg textarea {
         width: 50vw;
         height: 25vh;
     }
@@ -396,7 +395,7 @@
         height: auto;
     }
 
-    .form_container{
+    .form_container {
         padding: 2rem 3rem 0 2rem;
     }
 
