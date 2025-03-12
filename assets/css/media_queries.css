@@ -92,10 +92,17 @@
         cursor: pointer;
         font-size: 1rem;
     }
-    
+
     .menu_mobile button:hover {
         background: var(--cinza-urbano);
         padding: 1rem;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    #mobile-theme-toggle {
+        padding: 1rem;
+        border: var(--cinza-urbano) 2px solid;
         cursor: pointer;
         font-size: 1rem;
     }
@@ -369,7 +376,7 @@
         cursor: pointer;
         font-size: 1rem;
     }
-    
+
     .menu_mobile button:hover {
         background: var(--cinza-urbano);
         padding: 1rem;
@@ -409,9 +416,31 @@
         display: none;
     }
 
+
     /* mobile */
     .theme-container {
         display: none;
+    }
+
+    .menu_mobile button {
+        background: var(--cinza-urbano);
+        padding: 1rem;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    .menu_mobile button:hover {
+        background: var(--cinza-urbano);
+        padding: 1rem;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    #mobile-theme-toggle {
+        padding: 1rem;
+        border: var(--cinza-urbano) 2px solid;
+        cursor: pointer;
+        font-size: 1rem;
     }
 
 
