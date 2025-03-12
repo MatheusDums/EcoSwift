@@ -104,18 +104,12 @@ header nav a:hover {
     transform: translate(-50%, -50%);
 }
 
-#mobile-theme-toggle {
-    padding: 1rem;
-    border: var(--cinza-urbano) 2px solid;
-    cursor: pointer;
-    font-size: 1rem;
-}
-
 .menu_mobile button {
     background: var(--cinza-urbano);
     padding: 1rem;
     cursor: pointer;
     font-size: 1rem;
+    border-radius: 50%;
 }
 
 .menu_mobile button:hover {
@@ -123,8 +117,16 @@ header nav a:hover {
     padding: 1rem;
     cursor: pointer;
     font-size: 1rem;
+    border-radius: 50%;
 }
 
+#mobile-theme-toggle {
+    padding: 1rem;
+    border: var(--cinza-urbano) 2px solid;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 50%;
+}
 
 
 /* desktop */
