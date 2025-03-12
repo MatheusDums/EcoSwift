@@ -173,13 +173,9 @@ header nav a:hover {
     display: flex;
     flex-direction: column;
     padding-bottom: 1rem;
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(173,216,230,1) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(173, 216, 230, 1) 100%);
 }
-
-/* #advantages h2 {
-    color: var(--branco-neve);
-} */
 
 .wrapper {
     display: flex;
@@ -234,6 +230,49 @@ header nav a:hover {
 
 .card:hover p {
     font-size: 1.25rem;
+}
+
+/* adv mobile */
+#advMob {
+    display: none;
+}
+
+.adv_mobile .card {
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: .5rem;
+}
+
+.adv_mobile .card h3 {
+    color: var(--branco-neve);
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.adv_mobile .card p {
+    color: var(--branco-neve);
+    margin-top: 1rem;
+    font-size: 16px;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.adv_mobile .card1 {
+    background-image: url(../media/images/_Entrega\ Sustentável_\ Bikes\ elétricas\ e\ veículos\ ecológicos\ com\ fundo\ mais\ escuro.jpg);
+    filter: grayscale(60%);
+    object-fit: initial;
+    background-position-y: 70%;
+}
+
+.adv_mobile .card2 {
+    background-image: url(../media/images/Rápido\ e\ Seguro_\ Tecnologia\ para\ rotas\ sustentaveis\ otimizadas\ com\ fundo\ mais\ escuro.jpg);
+    filter: grayscale(60%);
+}
+
+.adv_mobile .card3 {
+    background-image: url(../media/images/_Pegada\ Zero_\ Compromisso\ com\ um\ futuro\ mais\ verde\ com\ fundo\ mais\ escuro\ e\ sem\ escritas.jpg );
+    filter: grayscale(60%);
 }
 
 /* section HowToUse */
