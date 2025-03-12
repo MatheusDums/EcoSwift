@@ -80,6 +80,49 @@ header nav a:hover {
 
 /* theme button */
 
+.theme-button {
+    /* MOBILE */
+    display: none;
+    /* Esconde no desktop */
+    bottom: 20px;
+    right: 20px;
+    background: var(--cinza-urbano);
+    color: var(--cor-botao-texto);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mobile-theme-toggle {
+    padding: 1rem;
+    border: var(--verde-floresta) 2px solid;
+    border-radius: 25px 0 25px 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.menu_mobile button:hover {
+    padding: 1rem;
+    border: var(--verde-floresta) 2px solid;
+    border-radius: 25px 0 25px 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+
+/* desktop */
 .checkbox {
     opacity: 0;
     position: absolute;

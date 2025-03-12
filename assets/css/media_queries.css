@@ -81,7 +81,10 @@
         display: none;
     }
 
-
+    /* mobile */
+    .theme-container {
+        display: none;
+    }
 
     /* hero secton */
 
@@ -382,6 +385,11 @@
     }
 
     header .theme_button {
+        display: none;
+    }
+
+    /* mobile */
+    .theme-container {
         display: none;
     }
 
