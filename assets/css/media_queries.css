@@ -86,6 +86,20 @@
         display: none;
     }
 
+    .menu_mobile button {
+        background: var(--cinza-urbano);
+        padding: 1rem;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+    
+    .menu_mobile button:hover {
+        background: var(--cinza-urbano);
+        padding: 1rem;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
     /* hero secton */
 
     #hero {
@@ -349,11 +363,18 @@
         padding-bottom: 5rem;
     }
 
-    .menu_mobile .theme_button {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    .menu_mobile button {
+        background: var(--cinza-urbano);
+        padding: 1rem;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+    
+    .menu_mobile button:hover {
+        background: var(--cinza-urbano);
+        padding: 1rem;
+        cursor: pointer;
+        font-size: 1rem;
     }
 
     .menu_mobile ul li a {
