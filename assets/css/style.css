@@ -112,6 +112,13 @@ header nav a:hover {
     font-size: 1rem;
 }
 
+.menu_mobile button {
+    background: var(--cinza-urbano);
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
 .menu_mobile button:hover {
     background: var(--cinza-urbano);
     padding: 1rem;
