@@ -87,7 +87,7 @@ header nav a:hover {
     bottom: 20px;
     right: 20px;
     background: var(--cinza-urbano);
-    color: var(--cor-botao-texto);
+    color: var(--branco-neve);
     border: none;
     border-radius: 50%;
     width: 50px;
@@ -113,9 +113,8 @@ header nav a:hover {
 }
 
 .menu_mobile button:hover {
+    background: var(--cinza-urbano);
     padding: 1rem;
-    border: var(--verde-floresta) 2px solid;
-    border-radius: 25px 0 25px 0;
     cursor: pointer;
     font-size: 1rem;
 }
