@@ -25,15 +25,30 @@
             <a href="index.html#footer">Contato</a>
         </nav>
 
+        <!-- botao de tema -->
+
+        <div class="theme_button">
+            <input type="checkbox" class="checkbox" id="chk" />
+
+            <label class="label" for="chk">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+
+                <div class="ball"></div>
+            </label>
+        </div>
+
         <a href="solicitacao.html"><button>Solicitar Entrega</button></a>
 
         <div class="menu_mobile_icon">
             <img src="assets/media/images/3lines.png" alt="" onclick="menuShow()">
         </div>
     </header>
+
     <!-- menu mobile -->
 
     <section class="menu_mobile">
+
         <ul>
             <li><a href="index.html#about" class="mobile_link">Sobre</a></li>
             <li><a href="index.html#advantages" class="mobile_link">Benefícios</a></li>
@@ -41,6 +56,11 @@
             <li><a href="index.html#footer" class="mobile_link">Contato</a></li>
             <li><a href="solicitacao.html" class="mobile_link solic_mobile">Solicitar uma Entrega</a></li>
         </ul>
+
+        <!-- botão de temas -->
+
+        <button id="mobile-theme-toggle" class="theme-button">🌙</button>
+
     </section>
 
     <main>
@@ -181,7 +201,8 @@
 
     </section>
 
-    <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/438d51e2af.js" crossorigin="anonymous"></script>
+    <script src="assets/js/scripttwo.js"></script>
 </body>
 
 </html>

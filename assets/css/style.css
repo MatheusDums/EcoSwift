@@ -17,6 +17,10 @@ html {
     --padding-pq: 1rem;
     --padding-md: 2rem;
     --padding-gd: 4rem;
+
+    --cor-fundo: #181818;
+    --cor-borda: #333;
+    --dest_sec: #a1a1a1;
 }
 
 body {
