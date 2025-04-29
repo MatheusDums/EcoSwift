@@ -4,3 +4,4 @@ Para a seção "Depoimento de Clientes" , onde utilizei um carrossel, utilizei o
 
 Foi um projeto que gostei de desenvolver, embora atualmente usaria uma nova combinação de cores e faria algumas alterações, ams para um dos primeiros projetos desenvolvidos sozinho, eu gostei.
 Compartilhei resultados e a experiência que foi desenvolver com meus amigos, de onde recebi muito apoio e sugestôes.
+👨🏼‍💻🚲🍃
